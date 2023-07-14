@@ -1,0 +1,70 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MENU</title>
+	<link rel="stylesheet" type="text/css" href="menu2.css">
+	<script type="text/javascript" src="menu2.js"></script>
+</head>
+
+
+<body>
+<h1>Menú del día</h1>
+    <h2>Entrantes</h2>
+<ol id="listaBebidas">
+	<li>Pan</li>
+	<li>Croketas</li>
+	<li>Sopa de pollo</li>
+</ol>
+<div>
+Añadir item: <input type="text" name="nombreBebida" id="nombreBebida">
+Borrar item: <input type="number" name="numeroBebida" id="numeroBebida">
+Escoger item: <input type="number" name="numeroBebida1" id="numeroBebida1">
+
+
+
+</div>
+<button onclick="anadirBebida()">Añadir item</button>
+<button onclick="borrarBebida()">Borrar item</button>
+<button onclick="consultarBebida()">Escoger item</button>
+<h2>Plato principal</h2>
+<ol id="listaComidas">
+
+	<li>Pollo a la plancha</li>
+	<li>carne de cordero con verdura</li>
+	<li>Pasta carbonara</li>
+</ol>
+<div>
+Añadir item: <input type="text" name="nombreComida" id="nombreComida">
+Borrar item: <input type="number" name="numeroComida" id="numeroComida">
+Escoger item: <input type="number" name="numeroComida1" id="numeroComida1">
+</div>
+
+<button onclick="anadirComida()">Añadir item</button>
+<button onclick="borrarComida()">Borrar item</button>
+<button onclick="consultarComida()">Escoger item</button>
+
+<h2>Postres</h2>
+<ol id="listapostre">
+	<li>Tarta</li>
+	<li>Flan</li>
+	<li>Pudding</li>
+</ol>
+<div>
+Añadir item: <input type="text" name="nombrepostre" id="nombrepostre">
+Borrar item: <input type="number" name="numeropostre" id="numeropostre">
+Escoger item: <input type="number" name="numeropostre1" id="numeropostre1">
+
+
+
+</div>
+<button onclick="anadirpostre()">Añadir item</button>
+<button onclick="borrarpostre()">Borrar item</button>
+<button onclick="consultarpostre()">Escoger item</button>
+<p id="demo"></p>
+
+</body>
+</html>
